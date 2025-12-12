@@ -1,0 +1,148 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.btn{
+background-color:  #7C4EE4;
+color: white;
+border: 2px solid  #7C4EE4;
+border-radius: 5.95px;
+height: 50px;
+width: 150px;
+}
+
+.blog{
+    color: #7C4EE4 ;
+}
+.search{
+    text-align: center;
+}
+.btn-1{
+    background-color:  #fcfcfc;
+color: rgb(2, 2, 2);
+border: 2px solid  #060606;
+border-radius: 5.95px;
+height: 50px;
+width: 150px;
+}
+.header-row{
+    background-color:  #7C4EE4;
+}
+.heading-6{
+color: white;
+}
+.heading-3{
+    color: white;
+    }
+ .para-1{
+        color: white;
+}
+    .middle-row{
+        position: relative;
+}
+.middle-row .content-div{
+    position: absolute;
+    background-color: rgb(245, 241, 241);
+    top: 250px;
+    left: 50%;
+    z-index: 2;
+    border-radius: 10px;
+    width: 800px;
+    
+}
+.ai-img{
+    /* max-width: 100%; */
+    height: 550px;
+    width:1000px;
+    margin-left: 50px;
+}
+    .heading3{
+        color: rgb(9, 9, 9);
+}
+.para{
+    color: rgb(12, 12, 12);
+}
+.btn-01{
+    background-color:  #7C4EE4;
+    color: white;
+    border: 2px solid  #7C4EE4;
+    border-radius: 5.95px;
+    height: 50px;
+    width: 150px;
+}
+.last-container{
+    background-color: #7C4EE4;
+}
+
+@media only screen and (max-width: 1630px){
+
+}
+
+
+    @media only screen and (max-width: 1200px) {
+        .header-row {
+            flex-direction: column;
+            align-items: center;
+        }
+    
+        .right-row {
+            order: -1;
+        }
+    }
+    @media (max-width: 1000px) {
+        /* .header-row {
+            flex-wrap: wrap;
+            display: flex;
+            height: 600px;
+            width: 320px;
+        }
+     */
+        .section-hero {
+            flex-wrap: wrap;
+            height: 220px;
+            width: 320px;
+        }
+    
+    
+    
+        .row-footer {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 40px;
+        }
+    
+        .col-3 {
+            position: relative;
+        }
+    
+        .flexible-time {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 25px;
+            width: 400px;
+            height: 600px;
+        }
+    
+    }
+
+
+
+
+
+
+    @media only screen and (max-width: 992px) {
+
+        .navUl a {
+            text-align: center;
+        }
+        .search{
+            margin-left: 325px;
+        }
+        .btn{
+            margin-left: 325px;
+        }
+    }
